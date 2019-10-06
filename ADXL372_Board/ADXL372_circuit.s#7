@@ -1804,8 +1804,8 @@ up to 64KB Flash, 8KB SRAM, 2KB EEPROM, ADC&lt;/p&gt;&lt;br&gt;
 <part name="C8" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
 <part name="C11" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
 <part name="C12" library="OPL_Capacitor" deviceset="CERAMIC-1UF-25V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="1uf"/>
-<part name="C9" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="8pf"/>
-<part name="C10" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="8pf"/>
+<part name="C9" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="10pf"/>
+<part name="C10" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="10pf"/>
 <part name="C13" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
 <part name="SW1" library="OPL_Switch" deviceset="SMD-BUTTON-TOP-DHT-4235A(4P-4.2X3.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8005116/1" value="DHT-4235A"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
