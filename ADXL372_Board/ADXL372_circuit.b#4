@@ -1601,23 +1601,20 @@ design rules under a new name.</description>
 <signal name="N$24">
 <contactref element="U1" pad="1"/>
 </signal>
-<signal name="N$25">
-<contactref element="U1" pad="6"/>
-</signal>
-<signal name="N$26">
-<contactref element="U1" pad="5"/>
-</signal>
-<signal name="N$27">
-<contactref element="U1" pad="2"/>
-</signal>
 <signal name="SPI1_SCK">
 <contactref element="U$1" pad="15"/>
+<contactref element="U1" pad="6"/>
+<wire x1="-53.75" y1="-6.75" x2="38.195" y2="29.845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_MISO">
 <contactref element="U$1" pad="16"/>
+<contactref element="U1" pad="2"/>
+<wire x1="-53.75" y1="-6.25" x2="32.925" y2="31.115" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_MOSI">
 <contactref element="U$1" pad="17"/>
+<contactref element="U1" pad="5"/>
+<wire x1="-53.75" y1="-5.75" x2="38.195" y2="28.575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADXL345_CS">
 <contactref element="U$1" pad="29"/>

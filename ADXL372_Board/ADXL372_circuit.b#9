@@ -1312,7 +1312,7 @@ design rules under a new name.</description>
 <attribute name="MP" value="ADXL345BCCZ" x="49.53" y="-16.51" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="14.90511875" y="27.95241875" size="2.0862" layer="25" ratio="10" rot="SR0"/>
 <attribute name="PACKAGE" value="LGA-14 Analog Devices" x="49.53" y="-16.51" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.3237" y="10.1544" size="2.08395" layer="27" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="11.3237" y="14.1544" size="2.08395" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="U3" library="ADXL372BCCZ-RL7" library_urn="urn:adsk.eagle:library:14055104" package="PQFN50P322X300X114-16N" package3d_urn="urn:adsk.eagle:package:14055107/1" value="ADXL372BCCZ-RL7" x="-60.96" y="52.07" smashed="yes">
 <attribute name="DESCRIPTION" value=" " x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1324,10 +1324,10 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="LGA-16 Analog Devices" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-62.61" y="48.87" size="1.27" layer="27"/>
 </element>
-<element name="Y1" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" package="X2-SMD-5.0X3.2X1.3MM" package3d_urn="urn:adsk.eagle:package:8004459/1" value="16MHZ" x="-59" y="-4" smashed="yes">
-<attribute name="MPN" value="X053201602002" x="-59" y="-4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-62.175" y="-2.095" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="-62.175" y="-6.667" size="0.889" layer="27" ratio="11"/>
+<element name="Y1" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" package="X2-SMD-5.0X3.2X1.3MM" package3d_urn="urn:adsk.eagle:package:8004459/1" value="16MHZ_X053201602002" x="9" y="9" smashed="yes">
+<attribute name="MPN" value="X053201602002" x="9" y="9" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.825" y="10.905" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="5.825" y="6.333" size="0.889" layer="27" ratio="11"/>
 </element>
 </elements>
 <signals>
@@ -1425,15 +1425,15 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="Y1" pad="2"/>
-<wire x1="17.875" y1="30.46" x2="-56.841" y2="-4" width="0" layer="19" extent="1-1"/>
+<wire x1="11.159" y1="9" x2="17.875" y2="30.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.4" y1="72.898" x2="17.875" y2="30.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC1" pad="3"/>
 <contactref element="C10" pad="2"/>
 <contactref element="Y1" pad="1"/>
-<wire x1="-30.48" y1="72.898" x2="-61.159" y2="-4" width="0" layer="19" extent="1-1"/>
-<wire x1="17.875" y1="29.96" x2="-30.48" y2="72.898" width="0" layer="19" extent="1-1"/>
+<wire x1="6.841" y1="9" x2="17.875" y2="29.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.48" y1="72.898" x2="17.875" y2="29.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="4"/>
