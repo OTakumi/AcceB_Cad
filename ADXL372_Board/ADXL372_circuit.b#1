@@ -1667,8 +1667,10 @@ design rules under a new name.</description>
 <wire x1="5.715" y1="29.305" x2="27.178" y2="35.56" width="0" layer="19" extent="1-1"/>
 <wire x1="3.175" y1="27.432" x2="5.715" y2="29.305" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$24">
+<signal name="FLASH_MEMORY">
 <contactref element="U1" pad="1"/>
+<contactref element="IC1" pad="31"/>
+<wire x1="5.715" y1="24.035" x2="22.115" y2="31.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="IC1" pad="15"/>
@@ -1698,9 +1700,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="30"/>
 <contactref element="U3" pad="8"/>
 <wire x1="22.615" y1="31.98" x2="34.89" y2="29.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$16">
-<contactref element="IC1" pad="31"/>
 </signal>
 <signal name="I2C1_SCL">
 <contactref element="IC1" pad="45"/>

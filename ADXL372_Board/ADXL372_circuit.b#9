@@ -1231,14 +1231,14 @@ design rules under a new name.</description>
 </element>
 <element name="C10" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="8pf" x="41.91" y="17.145" smashed="yes">
 <attribute name="MPN" value="CC0603JRNPO9BN100" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.656" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="42.799" y="18.415" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="41.656" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="40.3225" y="18.415" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C11" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="36.83" y="17.145" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.576" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="37.719" y="18.415" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="36.576" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="35.2425" y="18.415" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C12" library="OPL_Capacitor" package="C0805" package3d_urn="urn:adsk.eagle:package:8004286/1" value="1uf" x="38.1" y="12.065" smashed="yes">
@@ -1248,14 +1248,14 @@ design rules under a new name.</description>
 </element>
 <element name="C13" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="31.75" y="17.145" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.496" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="32.639" y="18.415" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="31.496" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="30.1625" y="18.415" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C14" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="26.67" y="17.145" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.416" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="27.559" y="18.415" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="26.416" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="25.0825" y="18.415" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C15" library="OPL_Capacitor" package="C0805" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf" x="31.75" y="12.065" smashed="yes">
@@ -1265,20 +1265,20 @@ design rules under a new name.</description>
 </element>
 <element name="C16" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="21.59" y="17.145" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.336" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="22.479" y="18.415" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="21.336" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="20.0025" y="18.415" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C17" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="16.51" y="17.145" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.256" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="17.399" y="18.415" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="16.256" y="18.415" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="14.9225" y="18.415" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C2" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="21.59" y="10.795" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.336" y="12.065" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="22.479" y="12.065" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="21.336" y="12.065" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="20.0025" y="12.065" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C3" library="OPL_Capacitor" package="C0805" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf" x="33.655" y="40.64" smashed="yes">
@@ -1288,20 +1288,20 @@ design rules under a new name.</description>
 </element>
 <element name="C4" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="16.51" y="10.795" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.256" y="12.065" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="17.399" y="12.065" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="16.256" y="12.065" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="14.9225" y="12.065" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C5" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="11.43" y="10.795" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="72.39" y="-56.515" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.176" y="12.065" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="12.319" y="12.065" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="11.176" y="12.065" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="9.8425" y="12.065" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C6" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="41.91" y="36.195" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="57.15" y="-37.465" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.656" y="37.465" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="42.799" y="37.465" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="41.656" y="37.465" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="40.3225" y="37.465" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C7" library="OPL_Capacitor" package="C0805" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf" x="22.86" y="38.735" smashed="yes">
@@ -1311,14 +1311,14 @@ design rules under a new name.</description>
 </element>
 <element name="C8" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="19.05" y="40.005" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="39.37" y="-33.655" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.796" y="41.275" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="19.939" y="41.275" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="18.796" y="41.275" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="17.4625" y="41.275" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C9" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="8pf" x="14.605" y="41.275" smashed="yes">
 <attribute name="MPN" value="CC0603JRNPO9BN100" x="40.005" y="-32.385" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.351" y="42.545" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="15.494" y="42.545" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="14.351" y="42.545" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="13.0175" y="42.545" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="D1" library="Seeed-LED" library_urn="urn:adsk.eagle:library:472" package="LED-0603" package3d_urn="urn:adsk.eagle:package:32743/1" value="BLUE-0603" x="6.985" y="6.35" smashed="yes">
@@ -1407,8 +1407,8 @@ design rules under a new name.</description>
 </element>
 <element name="C18" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf" x="32" y="14" smashed="yes">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="32" y="14" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.746" y="15.27" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="32.889" y="15.27" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="31.746" y="15.27" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="30.4125" y="15.27" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C19" library="OPL_Capacitor" package="C0805" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf" x="33" y="7" smashed="yes">
@@ -1423,22 +1423,19 @@ design rules under a new name.</description>
 </element>
 <element name="C20" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="12.5pf" x="23.825" y="17.335" smashed="yes">
 <attribute name="MPN" value="CC0603JRNPO9BN100" x="23.825" y="17.335" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.571" y="18.605" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="24.714" y="18.605" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="23.571" y="18.605" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="22.2375" y="18.605" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C21" library="OPL_Capacitor" package="C0603" package3d_urn="urn:adsk.eagle:package:8004287/1" value="12.5pf" x="26.445" y="17.335" smashed="yes">
 <attribute name="MPN" value="CC0603JRNPO9BN100" x="26.445" y="17.335" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.191" y="18.605" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="NAME" x="27.334" y="18.605" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="26.191" y="18.605" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="24.8575" y="18.605" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 </elements>
 <signals>
 <signal name="+2V5">
-<contactref element="IC5" pad="5"/>
-<contactref element="C7" pad="2"/>
-<contactref element="C15" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C8" pad="2"/>
@@ -1452,19 +1449,16 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="48"/>
 <contactref element="U$1" pad="9"/>
 <wire x1="33.655" y1="39.751" x2="37.465" y2="39.751" width="0" layer="19" extent="1-1"/>
-<wire x1="22.86" y1="37.846" x2="33.655" y2="39.751" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="39.243" x2="22.86" y2="37.846" width="0" layer="19" extent="1-1"/>
-<wire x1="20.25" y1="33.25" x2="22.86" y2="37.846" width="0" layer="19" extent="1-1"/>
-<wire x1="12.585" y1="38.18" x2="19.05" y2="39.243" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="39.243" x2="33.655" y2="39.751" width="0" layer="19" extent="1-1"/>
+<wire x1="20.25" y1="33.25" x2="19.05" y2="39.243" width="0" layer="19" extent="1-1"/>
 <wire x1="18.75" y1="26.25" x2="20.25" y2="33.25" width="0" layer="19" extent="1-1"/>
 <wire x1="20.25" y1="24.75" x2="18.75" y2="26.25" width="0" layer="19" extent="1-1"/>
 <wire x1="24.25" y1="24.75" x2="20.25" y2="24.75" width="0" layer="19" extent="1-1"/>
 <wire x1="32" y1="13.238" x2="24.25" y2="24.75" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="11.176" x2="32" y2="13.238" width="0" layer="19" extent="1-1"/>
-<wire x1="33" y1="6.111" x2="31.75" y2="11.176" width="0" layer="19" extent="1-1"/>
 <wire x1="36.83" y1="16.383" x2="32" y2="13.238" width="0" layer="19" extent="1-1"/>
 <wire x1="38.1" y1="11.176" x2="36.83" y2="16.383" width="0" layer="19" extent="1-1"/>
-<wire x1="21.59" y1="10.033" x2="31.75" y2="11.176" width="0" layer="19" extent="1-1"/>
+<wire x1="33" y1="6.111" x2="38.1" y2="11.176" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="10.033" x2="32" y2="13.238" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C2" pad="1"/>
@@ -1624,8 +1618,13 @@ design rules under a new name.</description>
 <contactref element="C17" pad="2"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R3" pad="2"/>
+<contactref element="IC5" pad="5"/>
+<contactref element="C15" pad="2"/>
+<contactref element="C7" pad="2"/>
 <wire x1="38.195" y1="32.385" x2="41.91" y2="35.433" width="0" layer="19" extent="1-1"/>
 <wire x1="28.81" y1="38.07" x2="38.195" y2="32.385" width="0" layer="19" extent="1-1"/>
+<wire x1="22.86" y1="37.846" x2="28.81" y2="38.07" width="0" layer="19" extent="1-1"/>
+<wire x1="12.585" y1="38.18" x2="22.86" y2="37.846" width="0" layer="19" extent="1-1"/>
 <wire x1="32.985" y1="21.235" x2="38.195" y2="32.385" width="0" layer="19" extent="1-1"/>
 <wire x1="31.2" y1="21.07" x2="32.985" y2="21.235" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="16.383" x2="31.2" y2="21.07" width="0" layer="19" extent="1-1"/>
@@ -1637,6 +1636,7 @@ design rules under a new name.</description>
 <wire x1="9.3284" y1="13.4084" x2="11.43" y2="10.033" width="0" layer="19" extent="1-1"/>
 <wire x1="9.3284" y1="17.4216" x2="9.3284" y2="13.4084" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="3.683" x2="19.05" y2="6.223" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="11.176" x2="26.67" y2="16.383" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="U1" pad="1"/>
