@@ -2082,7 +2082,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="Y1" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="SMD-CRYSTAL-16MHZ-8PF-20PPM-40R(2P-5.0X3.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8004459/1" value="16MHZ_X053201602002"/>
-<part name="U$1" library="stm32l05x6" library_urn="urn:adsk.eagle:library:14260580" deviceset="STM32L051C6" device="" package3d_urn="urn:adsk.eagle:package:19290/2"/>
+<part name="IC1" library="stm32l05x6" library_urn="urn:adsk.eagle:library:14260580" deviceset="STM32L051C6" device="" package3d_urn="urn:adsk.eagle:package:19290/2"/>
 <part name="C18" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
 <part name="C19" library="OPL_Capacitor" deviceset="CERAMIC-10UF-10V-(-20%～+80%)-Y5V(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
 <part name="Y2" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="SMD-CRYSTAL-32.768KHZ-12.5PF-20PPM-90K(2P-L2.0X1.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8004453/1" value="3.2768KHZ"/>
@@ -2316,7 +2316,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <attribute name="NAME" x="142.24" y="106.68" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="138.43" y="96.52" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="U$1" gate="G$1" x="185.42" y="142.24" smashed="yes">
+<instance part="IC1" gate="G$1" x="185.42" y="142.24" smashed="yes">
 <attribute name="NAME" x="180.34" y="186.69" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.34" y="184.15" size="1.778" layer="96"/>
 </instance>
@@ -2394,7 +2394,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="210.82" x2="177.8" y2="213.36" width="0.1524" layer="91"/>
 <junction x="177.8" y="213.36"/>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="157.48" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2409,7 +2409,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="VCC2" gate="G$1" pin="+3V3"/>
-<pinref part="U$1" gate="G$1" pin="VDDA"/>
+<pinref part="IC1" gate="G$1" pin="VDDA"/>
 <wire x1="157.48" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2443,7 +2443,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="218.44" y1="101.6" x2="218.44" y2="95.25" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VSS"/>
+<pinref part="IC1" gate="G$1" pin="VSS"/>
 <wire x1="213.36" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2597,7 +2597,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="109.22" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="107.95" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PC14-OSC32_IN"/>
+<pinref part="IC1" gate="G$1" pin="PC14-OSC32_IN"/>
 <wire x1="157.48" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
 <junction x="144.78" y="109.22"/>
 </segment>
@@ -2611,7 +2611,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="100.33" width="0.1524" layer="91"/>
 <junction x="144.78" y="99.06"/>
-<pinref part="U$1" gate="G$1" pin="PC15-OSC32_OUT"/>
+<pinref part="IC1" gate="G$1" pin="PC15-OSC32_OUT"/>
 <wire x1="157.48" y1="104.14" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2623,7 +2623,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="243.84" y1="177.8" x2="255.27" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="175.26" x2="243.84" y2="177.8" width="0.1524" layer="91"/>
 <junction x="243.84" y="177.8"/>
-<pinref part="U$1" gate="G$1" pin="NRST"/>
+<pinref part="IC1" gate="G$1" pin="NRST"/>
 <wire x1="213.36" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="170.18" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
 </segment>
@@ -2634,7 +2634,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <label x="132.08" y="147.32" size="1.778" layer="95"/>
 <label x="55.88" y="33.02" size="1.778" layer="95"/>
 <label x="193.04" y="45.72" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PA5"/>
+<pinref part="IC1" gate="G$1" pin="PA5"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCLK"/>
@@ -2649,7 +2649,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <label x="193.04" y="38.1" size="1.778" layer="95"/>
 <label x="193.04" y="38.1" size="1.778" layer="95"/>
 <label x="144.78" y="45.72" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PA6"/>
+<pinref part="IC1" gate="G$1" pin="PA6"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SO/SIO1"/>
@@ -2663,7 +2663,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <label x="132.08" y="142.24" size="1.778" layer="95"/>
 <label x="193.04" y="40.64" size="1.778" layer="95"/>
 <label x="144.78" y="50.8" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PA7"/>
+<pinref part="IC1" gate="G$1" pin="PA7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SI/SIO0"/>
@@ -2736,7 +2736,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="157.48" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <label x="132.08" y="139.7" size="1.778" layer="95"/>
 <label x="55.88" y="38.1" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PA8"/>
+<pinref part="IC1" gate="G$1" pin="PA8"/>
 </segment>
 </net>
 <net name="ADXL372_CS" class="0">
@@ -2744,14 +2744,14 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="157.48" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
 <label x="132.08" y="137.16" size="1.778" layer="95"/>
 <label x="193.04" y="43.18" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PA9"/>
+<pinref part="IC1" gate="G$1" pin="PA9"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <wire x1="157.48" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <label x="132.08" y="134.62" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PA10"/>
+<pinref part="IC1" gate="G$1" pin="PA10"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -2853,21 +2853,21 @@ Philips SC01_Mounting_1996.pdf</description>
 </net>
 <net name="I2C1_SCL" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB8"/>
+<pinref part="IC1" gate="G$1" pin="PB8"/>
 <wire x1="213.36" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
 <label x="220.98" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C1_SDA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB9"/>
+<pinref part="IC1" gate="G$1" pin="PB9"/>
 <wire x1="213.36" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
 <label x="220.98" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C2_SCL" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB13"/>
+<pinref part="IC1" gate="G$1" pin="PB13"/>
 <wire x1="213.36" y1="132.08" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
 <label x="220.98" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -2883,7 +2883,7 @@ Philips SC01_Mounting_1996.pdf</description>
 </net>
 <net name="I2C2_SDA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB14"/>
+<pinref part="IC1" gate="G$1" pin="PB14"/>
 <wire x1="213.36" y1="129.54" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
 <label x="220.98" y="129.54" size="1.778" layer="95"/>
 </segment>
@@ -2899,7 +2899,7 @@ Philips SC01_Mounting_1996.pdf</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PH0-OSC_IN"/>
+<pinref part="IC1" gate="G$1" pin="PH0-OSC_IN"/>
 <wire x1="213.36" y1="119.38" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="Y2" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="119.38" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
@@ -2910,7 +2910,7 @@ Philips SC01_Mounting_1996.pdf</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PH1-OSC_OUT"/>
+<pinref part="IC1" gate="G$1" pin="PH1-OSC_OUT"/>
 <wire x1="213.36" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="114.3" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
@@ -2938,7 +2938,7 @@ Philips SC01_Mounting_1996.pdf</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PA0"/>
+<pinref part="IC1" gate="G$1" pin="PA0"/>
 <wire x1="157.48" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="160.02" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="139.7" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
