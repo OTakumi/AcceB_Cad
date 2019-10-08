@@ -2065,7 +2065,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="BT1" library="BU2032SM-HD-G" library_urn="urn:adsk.eagle:library:14268586" deviceset="BU2032SM-HD-G" device="" package3d_urn="urn:adsk.eagle:package:14268589/1"/>
 <part name="VCC1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
-<part name="VCC2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
+<part name="VCC" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
 <part name="VCC3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
 <part name="VCC4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
 <part name="VCC5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
@@ -2260,7 +2260,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <instance part="VCC1" gate="G$1" x="147.32" y="220.98" smashed="yes">
 <attribute name="VALUE" x="144.78" y="222.25" size="1.778" layer="96"/>
 </instance>
-<instance part="VCC2" gate="G$1" x="121.92" y="218.44" smashed="yes">
+<instance part="VCC" gate="G$1" x="121.92" y="218.44" smashed="yes">
 <attribute name="VALUE" x="119.38" y="219.71" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC3" gate="G$1" x="50.8" y="78.74" smashed="yes">
@@ -2408,7 +2408,7 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="137.16" y1="208.28" x2="137.16" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="VCC2" gate="G$1" pin="+3V3"/>
+<pinref part="VCC" gate="G$1" pin="+3V3"/>
 <pinref part="IC1" gate="G$1" pin="VDDA"/>
 <wire x1="157.48" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
 </segment>
@@ -2633,7 +2633,6 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="157.48" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
 <label x="132.08" y="147.32" size="1.778" layer="95"/>
 <label x="55.88" y="33.02" size="1.778" layer="95"/>
-<label x="193.04" y="45.72" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PA5"/>
 </segment>
 <segment>
@@ -2641,13 +2640,16 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="309.88" y1="119.38" x2="287.02" y2="119.38" width="0.1524" layer="91"/>
 <label x="289.56" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="SCLK"/>
+<wire x1="210.82" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
+<label x="193.04" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI1_MISO" class="0">
 <segment>
 <wire x1="157.48" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 <label x="132.08" y="144.78" size="1.778" layer="95"/>
-<label x="193.04" y="38.1" size="1.778" layer="95"/>
-<label x="193.04" y="38.1" size="1.778" layer="95"/>
 <label x="144.78" y="45.72" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PA6"/>
 </segment>
@@ -2656,12 +2658,16 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="309.88" y1="114.3" x2="287.02" y2="114.3" width="0.1524" layer="91"/>
 <label x="289.56" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="MISO"/>
+<wire x1="210.82" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
+<label x="193.04" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI1_MOSI" class="0">
 <segment>
 <wire x1="157.48" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <label x="132.08" y="142.24" size="1.778" layer="95"/>
-<label x="193.04" y="40.64" size="1.778" layer="95"/>
 <label x="144.78" y="50.8" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PA7"/>
 </segment>
@@ -2670,35 +2676,16 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="309.88" y1="116.84" x2="287.02" y2="116.84" width="0.1524" layer="91"/>
 <label x="289.56" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="MOSI/SDA"/>
+<wire x1="210.82" y1="40.64" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
+<label x="193.04" y="40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="SCL/SCLK"/>
 <wire x1="53.34" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="SCLK"/>
-<wire x1="210.82" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!CS!/SCL"/>
-<wire x1="210.82" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="MOSI/SDA"/>
-<wire x1="210.82" y1="40.64" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="MISO"/>
-<wire x1="210.82" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -2743,15 +2730,12 @@ Philips SC01_Mounting_1996.pdf</description>
 <segment>
 <wire x1="157.48" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
 <label x="132.08" y="137.16" size="1.778" layer="95"/>
-<label x="193.04" y="43.18" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="PA9"/>
 </segment>
-</net>
-<net name="N$16" class="0">
 <segment>
-<wire x1="157.48" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
-<label x="132.08" y="134.62" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="PA10"/>
+<pinref part="U3" gate="G$1" pin="!CS!/SCL"/>
+<wire x1="210.82" y1="43.18" x2="190.5" y2="43.18" width="0.1524" layer="91"/>
+<label x="193.04" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -2845,10 +2829,16 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="91.44" y1="177.8" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="FLASH_MEMORY" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CS#"/>
 <wire x1="309.88" y1="121.92" x2="287.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="289.56" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="157.48" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<label x="132.08" y="134.62" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PA10"/>
 </segment>
 </net>
 <net name="I2C1_SCL" class="0">
@@ -2921,21 +2911,6 @@ Philips SC01_Mounting_1996.pdf</description>
 <junction x="233.68" y="106.68"/>
 </segment>
 </net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="+2V5" gate="VCC" pin="VCC"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="238.76" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="OUT"/>
-<wire x1="93.98" y1="233.68" x2="93.98" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="233.68" x2="86.36" y2="233.68" width="0.1524" layer="91"/>
-<junction x="93.98" y="233.68"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="233.68" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="231.14" x2="86.36" y2="233.68" width="0.1524" layer="91"/>
-<junction x="86.36" y="233.68"/>
-</segment>
-</net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA0"/>
@@ -2968,6 +2943,21 @@ Philips SC01_Mounting_1996.pdf</description>
 <wire x1="99.06" y1="137.16" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="231.14" x2="86.36" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
+<wire x1="71.12" y1="233.68" x2="86.36" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="233.68" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
+<junction x="86.36" y="233.68"/>
+<pinref part="+2V5" gate="VCC" pin="VCC"/>
+<wire x1="93.98" y1="238.76" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="231.14" x2="93.98" y2="233.68" width="0.1524" layer="91"/>
+<junction x="93.98" y="233.68"/>
 </segment>
 </net>
 </nets>

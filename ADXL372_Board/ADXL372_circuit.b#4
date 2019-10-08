@@ -1021,6 +1021,39 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 </package3d>
 </packages3d>
 </library>
+<library name="BSS138W" urn="urn:adsk.eagle:library:14280701">
+<packages>
+<package name="SOT323-R" urn="urn:adsk.eagle:footprint:14280702/1" library_version="1">
+<description>&lt;b&gt;SOT323 Reflow soldering&lt;/b&gt;&lt;p&gt;
+Philips SC01_Mounting_1996.pdf</description>
+<wire x1="0.9224" y1="0.4604" x2="0.9224" y2="-0.4604" width="0.1524" layer="51"/>
+<wire x1="0.9224" y1="-0.4604" x2="-0.9224" y2="-0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="-0.4604" x2="-0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="0.4604" x2="0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="0.9224" y1="0.4104" x2="0.9224" y2="-0.4104" width="0.2032" layer="21"/>
+<wire x1="0.9224" y1="-0.4104" x2="-0.9224" y2="-0.4104" width="0.2032" layer="21"/>
+<wire x1="-0.9224" y1="-0.4104" x2="-0.9224" y2="0.4104" width="0.2032" layer="21"/>
+<wire x1="-0.9224" y1="0.4104" x2="0.9224" y2="0.4104" width="0.2032" layer="21"/>
+<text x="-1.00145" y="1.30188125" size="1.01746875" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.0012" y="-2.60311875" size="0.813775" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.80139375" y1="-1.10191875" x2="-0.5" y2="-0.5" layer="51"/>
+<rectangle x1="0.500034375" y1="-1.10006875" x2="0.8" y2="-0.5" layer="51"/>
+<rectangle x1="-0.15010625" y1="0.500359375" x2="0.15" y2="1.1" layer="51"/>
+<smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOT323-R" urn="urn:adsk.eagle:package:14280704/1" type="box" library_version="1">
+<description>&lt;b&gt;SOT323 Reflow soldering&lt;/b&gt;&lt;p&gt;
+Philips SC01_Mounting_1996.pdf</description>
+<packageinstances>
+<packageinstance name="SOT323-R"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1433,6 +1466,26 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.191" y="18.605" size="0.635" layer="33" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="24.8575" y="18.605" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="R4" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" package="R0603" package3d_urn="urn:adsk.eagle:package:8004941/1" value="100k" x="-9.525" y="2.54" smashed="yes">
+<attribute name="MPN" value="RC0603JR-07470RL" x="-9.525" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-10.541" y="0.635" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="-8.09" y="0.935" size="0.635" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="R5" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" package="R0603" package3d_urn="urn:adsk.eagle:package:8004941/1" value="100" x="-13.97" y="2.54" smashed="yes">
+<attribute name="MPN" value="RC0603JR-07470RL" x="-13.97" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-14.986" y="0.635" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="-12.535" y="0.935" size="0.635" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="Q2" library="BSS138W" library_urn="urn:adsk.eagle:library:14280701" package="SOT323-R" package3d_urn="urn:adsk.eagle:package:14280704/1" value="BSS138W" x="-20.32" y="3.175" smashed="yes">
+<attribute name="DESCRIPTION" value=" N-Channel 50 V 3.5 Ohm SMT Enhancement Mode Field Effect Transistor - SOT-323 " x="-20.32" y="3.175" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="BSS138WCT-ND" x="-20.32" y="3.175" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.jp/product-detail/en/on-semiconductor/BSS138W/BSS138WCT-ND/3907886?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-20.32" y="3.175" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ON Semiconductor" x="-20.32" y="3.175" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="BSS138W" x="-20.32" y="3.175" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-21.32145" y="4.47688125" size="1.01746875" layer="25" ratio="18"/>
+<attribute name="PACKAGE" value="SOT-323 ON Semiconductor" x="-20.32" y="3.175" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-21.3212" y="0.57188125" size="0.813775" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="+2V5">
@@ -1482,7 +1535,6 @@ design rules under a new name.</description>
 <contactref element="C13" pad="1"/>
 <contactref element="SW1" pad="4"/>
 <contactref element="SW1" pad="3"/>
-<contactref element="D1" pad="-"/>
 <contactref element="IC5" pad="2"/>
 <contactref element="BT1" pad="-"/>
 <contactref element="C7" pad="1"/>
@@ -1499,6 +1551,8 @@ design rules under a new name.</description>
 <contactref element="C19" pad="1"/>
 <contactref element="C21" pad="2"/>
 <contactref element="C20" pad="2"/>
+<contactref element="R4" pad="1"/>
+<contactref element="Q2" pad="2"/>
 <wire x1="33.655" y1="41.529" x2="37.465" y2="41.529" width="0" layer="19" extent="1-1"/>
 <wire x1="41.91" y1="36.957" x2="37.465" y2="41.529" width="0" layer="19" extent="1-1"/>
 <wire x1="27.36" y1="38.07" x2="33.655" y2="41.529" width="0" layer="19" extent="1-1"/>
@@ -1535,7 +1589,8 @@ design rules under a new name.</description>
 <wire x1="8.21" y1="22.86" x2="9.3284" y2="16.6088" width="0" layer="19" extent="1-16"/>
 <wire x1="8.39" y1="29.155" x2="8.21" y2="22.86" width="0" layer="19" extent="1-16"/>
 <wire x1="4.49" y1="29.155" x2="8.39" y2="29.155" width="0" layer="19" extent="1-1"/>
-<wire x1="7.747" y1="6.35" x2="11.43" y2="11.557" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.525" y1="3.302" x2="9.3284" y2="14.2212" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.67" y1="2.25" x2="-9.525" y2="3.302" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C9" pad="2"/>
@@ -1588,16 +1643,6 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="U3" pad="9"/>
 </signal>
-<signal name="N$19">
-<contactref element="R1" pad="2"/>
-<contactref element="U$1" pad="10"/>
-<wire x1="26.67" y1="11.303" x2="24.75" y2="24.75" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$20">
-<contactref element="D1" pad="+"/>
-<contactref element="R1" pad="1"/>
-<wire x1="6.223" y1="6.35" x2="26.67" y2="12.827" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$22">
 <contactref element="IC5" pad="1"/>
 <contactref element="BT1" pad="+"/>
@@ -1618,12 +1663,14 @@ design rules under a new name.</description>
 <contactref element="C17" pad="2"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R3" pad="2"/>
+<contactref element="R1" pad="2"/>
 <wire x1="38.195" y1="32.385" x2="41.91" y2="35.433" width="0" layer="19" extent="1-1"/>
 <wire x1="28.81" y1="38.07" x2="38.195" y2="32.385" width="0" layer="19" extent="1-1"/>
 <wire x1="32.985" y1="21.235" x2="38.195" y2="32.385" width="0" layer="19" extent="1-1"/>
 <wire x1="31.2" y1="21.07" x2="32.985" y2="21.235" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="16.383" x2="31.2" y2="21.07" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="16.383" x2="26.67" y2="16.383" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="11.303" x2="26.67" y2="16.383" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="16.383" x2="21.59" y2="16.383" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="10.033" x2="16.51" y2="16.383" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="6.223" x2="16.51" y2="10.033" width="0" layer="19" extent="1-1"/>
@@ -1699,6 +1746,28 @@ design rules under a new name.</description>
 <contactref element="C7" pad="2"/>
 <wire x1="12.585" y1="38.18" x2="22.86" y2="37.846" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="11.176" x2="22.86" y2="37.846" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="U$1" pad="10"/>
+<contactref element="R5" pad="2"/>
+<wire x1="-13.97" y1="1.778" x2="24.75" y2="24.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="R1" pad="1"/>
+<contactref element="D1" pad="+"/>
+<wire x1="6.223" y1="6.35" x2="26.67" y2="12.827" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="D1" pad="-"/>
+<contactref element="Q2" pad="3"/>
+<wire x1="7.747" y1="6.35" x2="-20.32" y2="4.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="R4" pad="2"/>
+<contactref element="R5" pad="1"/>
+<contactref element="Q2" pad="1"/>
+<wire x1="-13.97" y1="3.302" x2="-20.97" y2="2.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.525" y1="1.778" x2="-13.97" y2="3.302" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
