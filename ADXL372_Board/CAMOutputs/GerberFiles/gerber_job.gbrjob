@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-22T14:16:57Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "ADXL372_circuit"
+        },
+        "Owner": "Takumi Otsuka <takumi.o.0410@gmail.com>",
+        "Size": {
+            "X": 45,
+            "Y": 45
+        }
+    }
+}
