@@ -2743,6 +2743,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package3d>
 </packages3d>
 <symbols>
+<symbol name="TPR" urn="urn:adsk.eagle:symbol:27938/1" library_version="3">
+<wire x1="0.762" y1="-0.762" x2="0" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.286" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.762" x2="0.762" y2="-0.762" width="0.254" layer="94" curve="-180"/>
+<text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="1.778" layer="97">&gt;TP_SIGNAL_NAME</text>
+<pin name="PP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+</symbol>
 <symbol name="TP" urn="urn:adsk.eagle:symbol:27940/1" library_version="3">
 <wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
@@ -2754,6 +2762,546 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="TPS" urn="urn:adsk.eagle:component:27990/3" prefix="TP" library_version="3">
+<description>&lt;b&gt;TEST PIN&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="B1,27" package="B1,27">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27944/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B2,54" package="B2,54">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27948/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-13" package="P1-13">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27946/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-13Y" package="P1-13Y">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27947/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-17" package="P1-17">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27949/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-17Y" package="P1-17Y">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27953/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-20" package="P1-20">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27950/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PAD1-20Y" package="P1-20Y">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27951/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP06R" package="TP06R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27954/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP06SQ" package="TP06SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27952/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP07R" package="TP07R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27970/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP07SQ" package="TP07SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27955/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP08R" package="TP08R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27956/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP08SQ" package="TP08SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27960/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP09R" package="TP09R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27958/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP09SQ" package="TP09SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27957/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP10R" package="TP10R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27959/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP10SQ" package="TP10SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27962/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP11R" package="TP11R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27961/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP11SQ" package="TP11SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27965/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP12SQ" package="TP12SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27964/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP12R" package="TP12R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27963/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP13R" package="TP13R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27967/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP14R" package="TP14R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27966/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP15R" package="TP15R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27968/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP16R" package="TP16R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27969/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP17R" package="TP17R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27971/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP18R" package="TP18R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27981/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP19R" package="TP19R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27972/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP20R" package="TP20R">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27973/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP13SQ" package="TP13SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27974/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP14SQ" package="TP14SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27984/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP15SQ" package="TP15SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27975/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP16SQ" package="TP16SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27976/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP17SQ" package="TP17SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27977/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP18SQ" package="TP18SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27979/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP19SQ" package="TP19SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27978/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TP20SQ" package="TP20SQ">
+<connects>
+<connect gate="G$1" pin="PP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27980/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="TP" urn="urn:adsk.eagle:component:27992/3" prefix="TP" library_version="3">
 <description>&lt;b&gt;Test pad&lt;/b&gt;</description>
 <gates>
@@ -3639,6 +4187,76 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </deviceset>
 </devicesets>
 </library>
+<library name="OPL_Capacitor" urn="urn:adsk.eagle:library:8004261">
+<description>&lt;b&gt;Seeed Open Parts Library (OPL) for the Seeed Fusion PCB Assembly Service
+&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com/opl.html" title="https://www.seeedstudio.com/opl.html"&gt;Seeed Fusion PCBA OPL&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com/fusion_pcb.html"&gt;Order PCB/PCBA&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.seeedstudio.com"&gt;www.seeedstudio.com&lt;/a&gt;
+&lt;br&gt;&lt;/b&gt;</description>
+<packages>
+<package name="C0603" urn="urn:adsk.eagle:footprint:8004273/1" library_version="3">
+<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
+<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<text x="0.889" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-1.5875" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-0.254" y="1.27" size="0.635" layer="33" ratio="10" rot="R270">&gt;name</text>
+<rectangle x1="-1.27" y1="-0.508" x2="1.27" y2="0.508" layer="39" rot="R270"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:8004287/1" type="box" library_version="3">
+<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C" urn="urn:adsk.eagle:symbol:8004275/1" library_version="3">
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="1.016" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CERAMIC-10PF-50V-5%-NPO(0603)" urn="urn:adsk.eagle:component:8004349/1" prefix="C" uservalue="yes" library_version="3">
+<description>302010097</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004287/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0603JRNPO9BN100" constant="no"/>
+<attribute name="VALUE" value="10pf"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3666,13 +4284,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C1" library="OPL_Capacitor" deviceset="CERAMIC-10UF-10V-(-20%～+80%)-Y5V(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
-<part name="C2" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
+<part name="C2" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" override_package3d_urn="urn:adsk.eagle:package:14678795/2" override_package_urn="urn:adsk.eagle:footprint:8004273/1" value="100nf"/>
 <part name="C3" library="OPL_Capacitor" deviceset="CERAMIC-10UF-10V-(-20%～+80%)-Y5V(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
 <part name="C8" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
-<part name="C11" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
+<part name="C11" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" override_package3d_urn="urn:adsk.eagle:package:14678526/2" override_package_urn="urn:adsk.eagle:footprint:8004273/1" value="100nf"/>
 <part name="C12" library="OPL_Capacitor" deviceset="CERAMIC-1UF-25V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="1uf"/>
-<part name="C9" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="8pf"/>
-<part name="C10" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="8pf"/>
+<part name="C9" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="10pf"/>
+<part name="C10" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="10pf"/>
 <part name="C13" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
 <part name="SW1" library="OPL_Switch" deviceset="SMD-BUTTON-TOP-DHT-4235A(4P-4.2X3.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8005116/1" value="DHT-4235A"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -3703,11 +4321,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="VCC9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="Y1" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="SMD-CRYSTAL-16MHZ-8PF-20PPM-40R(2P-5.0X3.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8004459/1" value="16MHZ_X053201602002"/>
+<part name="X1" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="SMD-CRYSTAL-16MHZ-8PF-20PPM-40R(2P-5.0X3.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8004459/1" value="8MHz"/>
 <part name="IC1" library="stm32l05x6" library_urn="urn:adsk.eagle:library:14260580" deviceset="STM32L051C6" device="" package3d_urn="urn:adsk.eagle:package:19290/2"/>
 <part name="C18" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
 <part name="C19" library="OPL_Capacitor" deviceset="CERAMIC-10UF-10V-(-20%～+80%)-Y5V(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
-<part name="Y2" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="SMD-CRYSTAL-32.768KHZ-12.5PF-20PPM-90K(2P-L2.0X1.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8004453/1" value="3.2768KHZ"/>
+<part name="X2" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="SMD-CRYSTAL-32.768KHZ-12.5PF-20PPM-90K(2P-L2.0X1.2MM)" device="" package3d_urn="urn:adsk.eagle:package:8004453/1" value="3.2768KHZ"/>
 <part name="C20" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="12.5pf"/>
 <part name="C21" library="OPL_Capacitor" deviceset="CERAMIC-10PF-50V-5%-NPO(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="12.5pf"/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -3723,9 +4341,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="SW2" library="OPL_Switch" library_urn="urn:adsk.eagle:library:8004989" deviceset="SMD-BUTTON(2P-3.0X2.5X1.2+0.4MM)" device="-B3U-1000P-2P-SMD" package3d_urn="urn:adsk.eagle:package:8005100/1" value="B3U-1000P-2P-SMD"/>
 <part name="R6" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K 1/10W"/>
@@ -3747,6 +4365,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="+3V2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="+3V3"/>
 <part name="SW3" library="JS202011SCQN" library_urn="urn:adsk.eagle:library:14397819" deviceset="JS202011SCQN" device="" package3d_urn="urn:adsk.eagle:package:14397824/1"/>
 <part name="C24" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
+<part name="C7" library="OPL_Capacitor" deviceset="CERAMIC-10UF-10V-(-20%～+80%)-Y5V(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
+<part name="C15" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nf"/>
+<part name="R7" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K 1/10W"/>
+<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R8" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K 1/10W"/>
+<part name="VCC12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
 </parts>
 <sheets>
 <sheet>
@@ -3828,19 +4452,19 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="NAME" x="132.08" y="100.33" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="132.08" y="96.52" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C13" gate="G$1" x="243.84" y="171.45" smashed="yes" rot="R90">
-<attribute name="NAME" x="242.57" y="167.64" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="246.38" y="167.64" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="C13" gate="G$1" x="248.92" y="171.45" smashed="yes" rot="R90">
+<attribute name="NAME" x="247.65" y="167.64" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="251.46" y="167.64" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="SW1" gate="G$1" x="264.16" y="175.26" smashed="yes">
-<attribute name="NAME" x="259.08" y="180.34" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="259.08" y="168.91" size="1.27" layer="96" ratio="10"/>
+<instance part="SW1" gate="G$1" x="269.24" y="175.26" smashed="yes">
+<attribute name="NAME" x="264.16" y="180.34" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="264.16" y="168.91" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="243.84" y="162.56" smashed="yes">
-<attribute name="VALUE" x="241.935" y="159.385" size="1.778" layer="96"/>
+<instance part="SUPPLY11" gate="GND" x="248.92" y="162.56" smashed="yes">
+<attribute name="VALUE" x="247.015" y="159.385" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY12" gate="GND" x="275.59" y="161.29" smashed="yes">
-<attribute name="VALUE" x="273.685" y="158.115" size="1.778" layer="96"/>
+<instance part="SUPPLY12" gate="GND" x="280.67" y="161.29" smashed="yes">
+<attribute name="VALUE" x="278.765" y="158.115" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="25.4" y="64.77" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.13" y="60.96" size="1.778" layer="95" ratio="10" rot="R90"/>
@@ -3932,9 +4556,9 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <instance part="SUPPLY21" gate="GND" x="363.22" y="127" smashed="yes">
 <attribute name="VALUE" x="361.315" y="123.825" size="1.778" layer="96"/>
 </instance>
-<instance part="Y1" gate="G$1" x="144.78" y="104.14" smashed="yes" rot="R90">
+<instance part="X1" gate="G$1" x="144.78" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="142.24" y="106.68" size="1.27" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="138.43" y="96.52" size="1.27" layer="96" ratio="10"/>
+<attribute name="VALUE" x="146.05" y="106.68" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="IC1" gate="G$1" x="185.42" y="142.24" smashed="yes">
 <attribute name="NAME" x="180.34" y="186.69" size="1.778" layer="95"/>
@@ -3948,7 +4572,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="NAME" x="176.53" y="203.2" size="1.778" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="180.34" y="203.2" size="1.778" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="Y2" gate="G$1" x="233.68" y="113.03" smashed="yes" rot="R90">
+<instance part="X2" gate="G$1" x="233.68" y="113.03" smashed="yes" rot="R90">
 <attribute name="NAME" x="231.14" y="115.57" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="234.95" y="110.49" size="1.27" layer="96" ratio="10"/>
 </instance>
@@ -4029,21 +4653,21 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="NAME" x="119.38" y="121.285" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="125.73" y="123.19" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="TP5" gate="G$1" x="238.76" y="152.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="243.84" y="153.035" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="237.49" y="151.13" size="1.778" layer="97" rot="R270"/>
+<instance part="TP5" gate="G$1" x="241.3" y="144.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="242.57" y="146.05" size="1.778" layer="95" rot="R270"/>
+<attribute name="TP_SIGNAL_NAME" x="240.03" y="143.51" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP6" gate="G$1" x="238.76" y="149.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="243.84" y="150.495" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="237.49" y="148.59" size="1.778" layer="97" rot="R270"/>
+<instance part="TP6" gate="G$1" x="241.3" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="246.38" y="142.875" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="240.03" y="140.97" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP7" gate="G$1" x="238.76" y="147.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="243.84" y="147.955" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="237.49" y="146.05" size="1.778" layer="97" rot="R270"/>
+<instance part="TP7" gate="G$1" x="241.3" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="246.38" y="140.335" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="240.03" y="138.43" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="TP8" gate="G$1" x="238.76" y="139.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="243.84" y="140.335" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="237.49" y="138.43" size="1.778" layer="97" rot="R270"/>
+<instance part="TP8" gate="G$1" x="220.98" y="182.88" smashed="yes">
+<attribute name="NAME" x="219.075" y="184.15" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="222.25" y="181.61" size="1.778" layer="97"/>
 </instance>
 <instance part="SW2" gate="G$1" x="35.56" y="200.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.21" y="198.12" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -4075,6 +4699,28 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </instance>
 <instance part="SUPPLY25" gate="GND" x="365.76" y="43.18" smashed="yes">
 <attribute name="VALUE" x="363.855" y="40.005" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="208.28" y="207.01" smashed="yes" rot="R90">
+<attribute name="NAME" x="207.01" y="203.2" size="1.778" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="210.82" y="203.2" size="1.778" layer="96" ratio="10" rot="R90"/>
+</instance>
+<instance part="C15" gate="G$1" x="200.66" y="207.01" smashed="yes" rot="R90">
+<attribute name="NAME" x="199.39" y="203.2" size="1.778" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="203.2" y="203.2" size="1.778" layer="96" ratio="10" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="232.41" y="200.66" smashed="yes">
+<attribute name="NAME" x="228.6" y="201.93" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="228.6" y="198.12" size="1.27" layer="96" ratio="10"/>
+</instance>
+<instance part="SUPPLY14" gate="GND" x="241.3" y="193.04" smashed="yes">
+<attribute name="VALUE" x="239.395" y="189.865" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="232.41" y="210.82" smashed="yes">
+<attribute name="NAME" x="228.6" y="212.09" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="228.6" y="208.28" size="1.27" layer="96" ratio="10"/>
+</instance>
+<instance part="VCC12" gate="G$1" x="241.3" y="220.98" smashed="yes">
+<attribute name="VALUE" x="238.76" y="222.25" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4111,6 +4757,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="177.8" y="213.36"/>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="157.48" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VDDIO2"/>
+<wire x1="157.48" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="167.64" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
+<junction x="147.32" y="177.8"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="210.82" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="213.36" x2="193.04" y2="213.36" width="0.1524" layer="91"/>
+<junction x="193.04" y="213.36"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="210.82" x2="208.28" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="213.36" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
+<junction x="200.66" y="213.36"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="175.26" x2="121.92" y2="210.82" width="0.1524" layer="91"/>
@@ -4227,6 +4885,12 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="368.3" y1="172.72" x2="368.3" y2="170.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="210.82" x2="241.3" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="VCC12" gate="G$1" pin="+3V3"/>
+<wire x1="241.3" y1="210.82" x2="241.3" y2="218.44" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -4254,12 +4918,24 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="203.2" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
 <junction x="177.8" y="200.66"/>
+<wire x1="193.04" y1="200.66" x2="200.66" y2="200.66" width="0.1524" layer="91"/>
+<junction x="193.04" y="200.66"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="200.66" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="203.2" x2="208.28" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="200.66" x2="200.66" y2="200.66" width="0.1524" layer="91"/>
+<junction x="200.66" y="200.66"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="218.44" y1="101.6" x2="218.44" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
 <wire x1="213.36" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="VSSA"/>
+<wire x1="213.36" y1="104.14" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="104.14" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
+<junction x="218.44" y="101.6"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
@@ -4329,19 +5005,19 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="165.1" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="165.1" x2="248.92" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="B1"/>
-<wire x1="273.05" y1="172.72" x2="275.59" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="278.13" y1="172.72" x2="280.67" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-<wire x1="275.59" y1="172.72" x2="275.59" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="280.67" y1="172.72" x2="280.67" y2="166.37" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="B0"/>
-<wire x1="275.59" y1="166.37" x2="275.59" y2="163.83" width="0.1524" layer="91"/>
-<wire x1="255.27" y1="172.72" x2="252.73" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="172.72" x2="252.73" y2="166.37" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="166.37" x2="275.59" y2="166.37" width="0.1524" layer="91"/>
-<junction x="275.59" y="166.37"/>
+<wire x1="280.67" y1="166.37" x2="280.67" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="260.35" y1="172.72" x2="257.81" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="257.81" y1="172.72" x2="257.81" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="257.81" y1="166.37" x2="280.67" y2="166.37" width="0.1524" layer="91"/>
+<junction x="280.67" y="166.37"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="1"/>
@@ -4414,11 +5090,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="365.76" y1="45.72" x2="365.76" y2="48.26" width="0.1524" layer="91"/>
 <junction x="365.76" y="48.26"/>
 </segment>
+<segment>
+<pinref part="SUPPLY14" gate="GND" pin="GND"/>
+<wire x1="241.3" y1="200.66" x2="241.3" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="200.66" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="109.22" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="107.95" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PC14-OSC32_IN"/>
@@ -4432,7 +5114,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="144.78" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="99.06" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="100.33" width="0.1524" layer="91"/>
 <junction x="144.78" y="99.06"/>
 <pinref part="IC1" gate="G$1" pin="PC15-OSC32_OUT"/>
@@ -4442,15 +5124,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <net name="RESET" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="A0"/>
-<wire x1="220.98" y1="177.8" x2="243.84" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="177.8" x2="255.27" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="175.26" x2="243.84" y2="177.8" width="0.1524" layer="91"/>
-<junction x="243.84" y="177.8"/>
+<wire x1="248.92" y1="177.8" x2="260.35" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="175.26" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
+<junction x="248.92" y="177.8"/>
 <pinref part="IC1" gate="G$1" pin="NRST"/>
 <wire x1="213.36" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="170.18" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
 <label x="228.6" y="177.8" size="1.778" layer="95"/>
+<wire x1="220.98" y1="180.34" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
+<junction x="220.98" y="177.8"/>
+<pinref part="TP8" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="SPI1_SCK" class="0">
@@ -4546,11 +5231,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </net>
 <net name="I2C1_SCL" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB8"/>
-<wire x1="213.36" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
-<label x="218.44" y="144.78" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="228.6" x2="302.26" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="SCL"/>
@@ -4559,13 +5239,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="281.94" y1="220.98" x2="302.26" y2="220.98" width="0.1524" layer="91"/>
 <label x="284.48" y="220.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB6"/>
+<label x="218.44" y="149.86" size="1.778" layer="95"/>
+<wire x1="238.76" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="I2C1_SDA" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB9"/>
-<wire x1="213.36" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
-<label x="218.44" y="142.24" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="SDA"/>
 <wire x1="322.58" y1="218.44" x2="309.88" y2="218.44" width="0.1524" layer="91"/>
@@ -4575,12 +5255,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="309.88" y="218.44"/>
 <label x="284.48" y="218.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB7"/>
+<wire x1="213.36" y1="147.32" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
+<label x="218.44" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PH0-OSC_IN"/>
 <wire x1="213.36" y1="119.38" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="Y2" gate="G$1" pin="2"/>
+<pinref part="X2" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="119.38" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
@@ -4593,7 +5278,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="213.36" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="114.3" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="Y2" gate="G$1" pin="1"/>
+<pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="106.68" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
@@ -4809,32 +5494,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="127" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="I2C1_SMBA" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB5"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
-<wire x1="213.36" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="152.4" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
+<label x="218.44" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="TP6" gate="G$1" pin="TP"/>
-<pinref part="IC1" gate="G$1" pin="PB6"/>
-<wire x1="236.22" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PB7"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
-<wire x1="213.36" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
+<net name="TP7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB10"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="213.36" y1="139.7" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="TP7" gate="G$1" pin="PP"/>
 </segment>
 </net>
 <net name="MODE_SW" class="0">
@@ -4858,6 +5529,33 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="SW2" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="208.28" x2="35.56" y2="210.82" width="0.1524" layer="91"/>
 <junction x="35.56" y="210.82"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="BOOT0"/>
+<wire x1="213.36" y1="175.26" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="175.26" x2="215.9" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="200.66" x2="228.6" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="200.66" x2="215.9" y2="210.82" width="0.1524" layer="91"/>
+<junction x="215.9" y="200.66"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="210.82" x2="228.6" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TP5" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB8"/>
+<wire x1="213.36" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="TP5" gate="G$1" pin="PP"/>
+</segment>
+</net>
+<net name="TP6" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB9"/>
+<wire x1="213.36" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="TP6" gate="G$1" pin="PP"/>
 </segment>
 </net>
 </nets>
@@ -5020,6 +5718,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

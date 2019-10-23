@@ -1,45 +1,67 @@
 Partlist
 
-Exported from ADXL372_circuit.brd at 2019/10/07 9:43
+Exported from ADXL372_circuit.brd at 2019/10/23 23:32
 
 EAGLE Version 9.5.1 Copyright (c) 1988-2019 Autodesk, Inc.
 
 Assembly variant: 
 
-Part     Value               Package                  Library                Position (mil)        Orientation
+Part     Value              Package                   Library                Position (mil)        Orientation
 
-BT1      BU2032SM-HD-G       BAT_BU2032SM-HD-G        BU2032SM-HD-G          (900 900)             MR0
-C1       10uf                C0805                    OPL_Capacitor          (1475 1600)           R0
-C2       100nf               C0603                    OPL_Capacitor          (850 425)             R0
-C3       10uf                C0805                    OPL_Capacitor          (1325 1600)           R0
-C4       100nf               C0603                    OPL_Capacitor          (650 425)             R0
-C5       100nf               C0603                    OPL_Capacitor          (450 425)             R0
-C6       100nf               C0603                    OPL_Capacitor          (1650 1425)           R0
-C7       10uf                C0805                    OPL_Capacitor          (900 1525)            R0
-C8       100nf               C0603                    OPL_Capacitor          (750 1575)            R0
-C9       8pf                 C0603                    OPL_Capacitor          (575 1625)            R0
-C10      8pf                 C0603                    OPL_Capacitor          (1650 675)            R0
-C11      100nf               C0603                    OPL_Capacitor          (1450 675)            R0
-C12      1uf                 C0805                    OPL_Capacitor          (1500 475)            R0
-C13      100nf               C0603                    OPL_Capacitor          (1250 675)            R0
-C14      100nf               C0603                    OPL_Capacitor          (1050 675)            R0
-C15      10uf                C0805                    OPL_Capacitor          (1250 475)            R0
-C16      100nf               C0603                    OPL_Capacitor          (850 675)             R0
-C17      100nf               C0603                    OPL_Capacitor          (650 675)             R0
-C18      100nf               C0603                    OPL_Capacitor          (1259.84252 551.1811) R0
-C19      10uf                C0805                    OPL_Capacitor          (1299.2126 275.59055) R0
-C20      12.5pf              C0603                    OPL_Capacitor          (937.99213 682.48031) R0
-C21      12.5pf              C0603                    OPL_Capacitor          (1041.14173 682.48031) R0
-D1       BLUE-0603           LED-0603                 Seeed-LED              (275 250)             R0
-IC4      SI7006-A20-IM       SON100P300X300X80-7N     SI7006-A20-IM          (1077.16535 1498.8189) R0
-IC5      LP5907MFX-2.5/NOPB  SOT95P280X145-5N         LP5907MFX-2.5_NOPB     (446.06299 1465.74803) R0
-R1       470R                R0603                    OPL_Resistor           (1050 475)            R0
-R2       10K 1/10W           R0603                    OPL_Resistor           (950 175)             R0
-R3       10K 1/10W           R0603                    OPL_Resistor           (750 275)             R0
-SW1      DHT-4235A           SW4-SMD-4.2X3.2X2.5MM    OPL_Switch             (253.54331 1190.15748) R0
-U$1      STM32L051C6         LQFP48                   stm32l05x6             (905.51181 1141.73228) R0
-U1       MX25R1635FM1IL0     SOIC127P600X175-8N       MX25R1635FM1IL0        (1400 1200)           R0
-U2       ADXL345BCCZ         LGA14R80P3X6_300X500X100 ADXL345BCCZ            (421.25984 606.88976) R0
-U3       ADXL372BCCZ-RL7     PQFN50P322X300X114-16N   ADXL372BCCZ-RL7        (1278.93701 790.15748) R0
-Y1       16MHZ_X053201602002 X2-SMD-5.0X3.2X1.3MM     OPL_Crystal Oscillator (679.33071 779.33071) R180
-Y2       3.2768KHZ           X2-SMD-L2.0X1.2X0.55MM   OPL_Crystal Oscillator (980.51181 801.77165) R180
+BT2      BU2032SM-HD-G      BAT_BU2032SM-HD-G         BU2032SM-HD-G          (940 910)             MR0
+C1       10uf               C0805                     OPL_Capacitor          (585 705)             R180
+C2       100nf              C0603                     OPL_Capacitor          (665 710)             R180
+C3       10uf               C0805                     OPL_Capacitor          (725 1270)            R90
+C4       100nf              C0603                     OPL_Capacitor          (1575 650)            R180
+C5       100nf              C0603                     OPL_Capacitor          (1575 495)            R0
+C6       100nf              C0603                     OPL_Capacitor          (1335 1090)           R270
+C7       10uf               C0805                     OPL_Capacitor          (1084 1195)           R270
+C8       100nf              C0603                     OPL_Capacitor          (705 1195)            R90
+C9       10pf               C0603                     OPL_Capacitor          (715 375)             R180
+C10      10pf               C0603                     OPL_Capacitor          (815 375)             R180
+C11      100nf              C0603                     OPL_Capacitor          (1130 765)            R0
+C12      1uf                C0805                     OPL_Capacitor          (1205 760)            R0
+C13      100nf              C0603                     OPL_Capacitor          (1340 320)            R270
+C14      100nf              C0603                     OPL_Capacitor          (1567 1023)           R180
+C15      100nf              C0603                     OPL_Capacitor          (1083 1118)           R270
+C16      100nf              C0603                     OPL_Capacitor          (150 565)             R0
+C17      100nf              C0603                     OPL_Capacitor          (395 1510)            R90
+C18      100nf              C0603                     OPL_Capacitor          (599.84252 866.1811)  R0
+C19      10uf               C0805                     OPL_Capacitor          (514.2126 865.59055)  R0
+C20      12.5pf             C0603                     OPL_Capacitor          (982.99213 442.48031) R0
+C21      12.5pf             C0603                     OPL_Capacitor          (1071.14173 442.48031) R0
+C22      10uf               C0805                     OPL_Capacitor          (1646 1019)           R180
+C23      100nf              C0603                     OPL_Capacitor          (250 1050)            R180
+C24      100nf              C0603                     OPL_Capacitor          (1240 1286)           R270
+C25      10uf               C0805                     OPL_Capacitor          (1240 1206)           R270
+CN1      505568-0871        MOLEX_505568-0871         505568-0871            (882 1574)            R0
+D1       BLUE-0603          LED-0603                  Seeed-LED              (235 270)             R0
+IC1      STM32L051C6        LQFP48                    stm32l05x6             (880.51181 941.73228) R0
+IC2      ADXL345BCCZ        LGA14R80P3X6_300X500X100  ADXL345BCCZ            (1428.74016 568.11024) R180
+IC3      ADXL372BCCZ-RL7    PQFN50P322X300X114-16N    ADXL372BCCZ-RL7        (1423.93701 975.15748) R0
+IC4      SI7006-A20-IM      SON100P300X300X80-7N      SI7006-A20-IM          (268.8189 577.83465)  R270
+IC6      MX25R1635FM1IL0    SOIC127P600X175-8N        MX25R1635FM1IL0        (400 1360)            R0
+IC7      74AHC1G14DCK       SC70-5                    74xx-little-us         (340 1040)            R0
+IC8      LP5907MFX-2.5/NOPB SOT95P280X145-5N          LP5907MFX-2.5_NOPB     (1215 1395)           R180
+R1       470R               R0603                     OPL_Resistor           (240 345)             R90
+R2       10K 1/10W          R0603                     OPL_Resistor           (410 520)             R90
+R3       10K 1/10W          R0603                     OPL_Resistor           (415 615)             R90
+R4       100k               R0603                     OPL_Resistor           (475 280)             R0
+R5       100                R0603                     OPL_Resistor           (550 280)             R0
+R6       10K 1/10W          R0603                     OPL_Resistor           (250 950)             R270
+R7       10K 1/10W          R0603                     OPL_Resistor           (1152 199)            R0
+R8       10K 1/10W          R0603                     OPL_Resistor           (1058 199)            R0
+SW1      DHT-4235A          SW4-SMD-4.2X3.2X2.5MM     OPL_Switch             (1426.45669 169.84252) R0
+SW2      B3U-1000P-2P-SMD   SW2-2.6-3.0X2.5X1.2+0.4MM OPL_Switch             (310 830)             R180
+SW3      JS202011SCQN       SW_JS202011SCQN           JS202011SCQN           (1520 1350)           R90
+TP1      TPB1,27            B1,27                     testpad                (650 1130)            R0
+TP2      TPB1,27            B1,27                     testpad                (620 1070)            R0
+TP3      TPB1,27            B1,27                     testpad                (1315 1530)           MR0
+TP4      TPB1,27            B1,27                     testpad                (484 1650)            MR0
+TP5      TPSB1,27           B1,27                     testpad                (445 1588)            MR0
+TP6      TPSB1,27           B1,27                     testpad                (393 1653)            MR0
+TP7      TPSB1,27           B1,27                     testpad                (330 1590)            MR0
+TP8      TPB1,27            B1,27                     testpad                (1256 379)            MR0
+TR2      BSS138W            SOT323-R                  BSS138W                (375 270)             R90
+X1       8MHz               X2-SMD-5.0X3.2X1.3MM      OPL_Crystal Oscillator (764.33071 519.33071) R180
+X2       3.2768KHZ          X2-SMD-L2.0X1.2X0.55MM    OPL_Crystal Oscillator (1020.51181 546.77165) R180
