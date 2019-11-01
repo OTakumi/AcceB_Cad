@@ -4329,7 +4329,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R8" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K 1/10W"/>
 <part name="VCC12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+2V5"/>
-<part name="CN1" library="505568-0871" library_urn="urn:adsk.eagle:library:14702135" deviceset="505568-0871" device="" package3d_urn="urn:adsk.eagle:package:14702138/1"/>
+<part name="CN1" library="505568-0871" library_urn="urn:adsk.eagle:library:14702135" deviceset="505568-0871" device="" package3d_urn="urn:adsk.eagle:package:14702138/1" override_package3d_urn="urn:adsk.eagle:package:14702165/2" override_package_urn="urn:adsk.eagle:footprint:14702136/1"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>

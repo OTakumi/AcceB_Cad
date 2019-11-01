@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1469,7 +1469,7 @@ Metric Code Size 1608</description>
 </library>
 <library name="BU2032SM-HD-G" urn="urn:adsk.eagle:library:14268586">
 <packages>
-<package name="BAT_BU2032SM-HD-G" urn="urn:adsk.eagle:footprint:14268587/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
+<package name="BAT_BU2032SM-HD-G" urn="urn:adsk.eagle:footprint:14268587/2" library_version="2">
 <wire x1="-14.5" y1="2.4" x2="-14.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="-14.5" y1="3.5" x2="-10.645" y2="3.5" width="0.127" layer="51"/>
 <wire x1="-10.645" y1="3.5" x2="-10.5809" y2="3.68111875" width="0.127" layer="51"/>
@@ -1581,7 +1581,6 @@ Metric Code Size 1608</description>
 <wire x1="-5" y1="10" x2="5" y2="10" width="0.127" layer="51"/>
 <wire x1="-5" y1="-10" x2="5" y2="-10" width="0.127" layer="51"/>
 <wire x1="-16.5" y1="10.25" x2="-16.5" y2="-10.25" width="0.05" layer="39"/>
-<wire x1="-16.5" y1="-10.25" x2="16.5" y2="-10.25" width="0.05" layer="39"/>
 <wire x1="16.5" y1="-10.25" x2="16.5" y2="10.25" width="0.05" layer="39"/>
 <wire x1="16.5" y1="10.25" x2="-16.5" y2="10.25" width="0.05" layer="39"/>
 <wire x1="-14.5" y1="2.4" x2="-14.5" y2="3.5" width="0.127" layer="21"/>
@@ -1699,24 +1698,12 @@ Metric Code Size 1608</description>
 <wire x1="13" y1="5.5" x2="14.5" y2="5.5" width="0.127" layer="21"/>
 <text x="-16" y="10.8683" size="1.272259375" layer="25">&gt;NAME</text>
 <text x="-16" y="-12.0011" size="1.27011875" layer="27">&gt;VALUE</text>
-<polygon width="0.000009375" layer="19">
-<vertex x="-5.5" y="3.5"/>
-<vertex x="5.5" y="3.5"/>
-<vertex x="5.5" y="-3.5"/>
-<vertex x="-5.5" y="-3.5"/>
-</polygon>
-<polygon width="0.000009375" layer="29">
-<vertex x="-5.6" y="3.6"/>
-<vertex x="5.6" y="3.6"/>
-<vertex x="5.6" y="-3.6"/>
-<vertex x="-5.6" y="-3.6"/>
-</polygon>
 <smd name="+" x="-14.65" y="0" dx="3.2" dy="4.2" layer="1"/>
 <smd name="-" x="14.65" y="0" dx="3.2" dy="4.2" layer="1"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="BAT_BU2032SM-HD-G" urn="urn:adsk.eagle:package:14268589/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="BAT_BU2032SM-HD-G" urn="urn:adsk.eagle:package:14268589/2" type="box" library_version="2">
 <packageinstances>
 <packageinstance name="BAT_BU2032SM-HD-G"/>
 </packageinstances>
@@ -1740,7 +1727,7 @@ Metric Code Size 1608</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BU2032SM-HD-G" urn="urn:adsk.eagle:component:14268590/1" prefix="BT" library_version="1" library_locally_modified="yes">
+<deviceset name="BU2032SM-HD-G" urn="urn:adsk.eagle:component:14268590/2" prefix="BT" library_version="2">
 <description>Batt Holder Smt Coin 20mm Tape</description>
 <gates>
 <gate name="G$1" symbol="BU2032SM-HD-G" x="0" y="0"/>
@@ -1752,7 +1739,7 @@ Metric Code Size 1608</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14268589/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14268589/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4340,7 +4327,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="C25" library="OPL_Capacitor" deviceset="CERAMIC-10UF-10V-(-20%～+80%)-Y5V(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="BT2" library="BU2032SM-HD-G" library_urn="urn:adsk.eagle:library:14268586" deviceset="BU2032SM-HD-G" device="" package3d_urn="urn:adsk.eagle:package:14268589/1" override_package3d_urn="urn:adsk.eagle:package:14699352/2" override_package_urn="urn:adsk.eagle:footprint:14699353/1"/>
+<part name="BT2" library="BU2032SM-HD-G" library_urn="urn:adsk.eagle:library:14268586" deviceset="BU2032SM-HD-G" device="" package3d_urn="urn:adsk.eagle:package:14268589/2" override_package3d_urn="urn:adsk.eagle:package:14699352/2" override_package_urn="urn:adsk.eagle:footprint:14699353/1" override_locally_modified="yes"/>
 <part name="+2V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+2V5"/>
 <part name="+3V2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device="" value="+3V3"/>
 <part name="SW3" library="JS202011SCQN" library_urn="urn:adsk.eagle:library:14397819" deviceset="JS202011SCQN" device="" package3d_urn="urn:adsk.eagle:package:14397824/1"/>
